@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>saptasur</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;subset=devanagari">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+</head>
+
+<body style="font-family: Poppins, serif;">
+<h6 class="bg-dark p-2 text-warning text-center">2 evaluators & 7-point grade system visualisation</h6>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 text-center"><hr>
+                    <h5 class="bg-light p-2">Evaluator 1</h5>
+                    <hr>
+                    <div class="text-left">
+					<span>Select marks : &nbsp;</span>
+					
+					<select class="form-control-sm" id="marks1">
+					<option value="0" selected>-</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					</select>
+                    
+					<button class="btn btn-success btn-sm float-right mr-4" type="button" onclick="setmk1();"> SET </button>
+                    </div>
+					
+
+                    <div class="card rot m-auto">
+					<h5 id="mk1">*</h5>
+                        <div class="card-body">
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >
+                                <div class="progress-bar sa" min="0" max="100" style="width: 15%;">
+								<h6>1</h6>
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex" >
+                                <div class="progress-bar re" min="0" max="100" style="width: 26%;">
+								<h6>2</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >
+                                <div class="progress-bar ga" min="0" max="100" style="width: 39%;">
+								<h6>3</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >                                
+								<div class="progress-bar ma" min="0" max="100" style="width: 52%;">
+                            	<h6>4</h6>
+								</div>
+							</div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >                                
+								<div class="progress-bar pa"  min="0" max="100" style="width: 65%;">
+								<h6>5</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex" >
+                                <div class="progress-bar dha" min="0" max="100" style="width: 78%;">
+								<h6>6</h6>																
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex">
+								<div class="progress-bar ni" min="0" max="100" style="width: 95%;">
+								<h6>7</h6>								                                								
+								</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+				
+				
+                <div class="col-md-6 col-lg-6 text-center"><hr>
+                    <h5 class="bg-light p-2">Evaluator 2</h5>
+                    <hr>
+					
+                    <div class="text-left">
+					<span>Select marks : &nbsp;</span>
+					
+					<select class="form-control-sm" id="marks2">
+					<option value="0" selected>-</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					</select>
+                    
+					<button class="btn btn-success btn-sm float-right mr-4" type="button" onclick="setmk2();"> SET </button>
+                    </div>
+					
+                    <div class="card rot m-auto">
+					<h5 id="mk2">*</h5>
+                        <div class="card-body">
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >
+                                <div class="progress-bar e1" min="0" max="100" style="width: 15%;">
+								<h6>1</h6>
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex" >
+                                <div class="progress-bar e2" min="0" max="100" style="width: 26%;">
+								<h6>2</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >
+                                <div class="progress-bar e3" min="0" max="100" style="width: 39%;">
+								<h6>3</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >                                
+								<div class="progress-bar e4" min="0" max="100" style="width: 52%;">
+                            	<h6>4</h6>
+								</div>
+							</div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex"  >                                
+								<div class="progress-bar e5"  min="0" max="100" style="width: 65%;">
+								<h6>5</h6>								
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex" >
+                                <div class="progress-bar e6" min="0" max="100" style="width: 78%;">
+								<h6>6</h6>																
+								</div>
+                            </div>
+                            <div class="progress bg-white border rounded-0 border-white d-lg-flex">
+								<div class="progress-bar e7" min="0" max="100" style="width: 95%;">
+								<h6>7</h6>								                                								
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	
+	
+    <script src="assets/js/mkset1.js"></script>
+    <script src="assets/js/mkset2.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

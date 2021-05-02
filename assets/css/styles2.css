@@ -1,0 +1,66 @@
+
+@keyframes e1 {
+  0% { width: 0; }		100% { width:15%; }
+}
+
+@keyframes e2 {
+  0% { width: 0; }		100% { width:26%; }
+}
+
+@keyframes e3 {
+  0% { width: 0; }		100% { width:39%; }
+}
+
+@keyframes e4 {
+  0% { width: 0; }		100% { width:52%; }
+}
+
+@keyframes e5 {
+  0% { width: 0; }		100% { width:65%; }
+}
+
+@keyframes e6 {
+  0% { width: 0; }		100% { width:78%; }
+}
+
+@keyframes e7 {
+  0% { width: 0; }		100% { width:95%; }
+}
+
+.e1,.e2,.e3,.e4,.e5,.e6,.e7{
+	background-color:lavender;		animation: 1s ease-in-out;		color:#000;
+}
+
+
+
+
+
+.e11{
+opacity:1;		background-color:#f33;		animation: e1 1s ease;		color:#fff;
+}
+
+.e12{
+opacity:1;		background-color:orange;		animation: e2 1s ease;		color:#fff;
+}
+
+.e13{
+opacity:1;		background-color:gold;		animation: e3 1s ease;		color:#fff;
+}
+
+.e14{
+opacity:1;		background-color:#59f;		animation: e4 1s ease;		color:#fff;
+}
+
+.e15{
+opacity:1;		background-color:#24f;		animation: e5 1s ease;		color:#fff;
+}
+
+.e16{
+opacity:1;		background-color:indigo;		animation: e6 1s ease;		color:#fff;
+}
+
+
+.e17{
+opacity:1;		background-color:green;		animation: e7 1s ease;		color:#fff;
+}
+

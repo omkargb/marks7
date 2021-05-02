@@ -1,0 +1,94 @@
+
+.rot
+{
+transform : rotate(-90deg);		width:22rem;
+}
+
+.progress
+{
+height: 48px;		animation: progress-bar 0.5s ease;		padding-bottom:8px;
+}
+
+@keyframes progress-bar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.progress-bar
+{
+color:#fff;	
+}
+
+.progress-bar>h6
+{
+	transform : rotate(90deg);
+}
+
+
+#mk1,#mk2{
+		transform : rotate(90deg);
+	}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+@keyframes sa {
+  0% { width: 0; }		100% { width:15%; }
+}
+
+@keyframes re {
+  0% { width: 0; }		100% { width:26%; }
+}
+
+@keyframes ga {
+  0% { width: 0; }		100% { width:39%; }
+}
+
+@keyframes ma {
+  0% { width: 0; }		100% { width:52%; }
+}
+
+@keyframes pa {
+  0% { width: 0; }		100% { width:65%; }
+}
+
+@keyframes dha {
+  0% { width: 0; }		100% { width:78%; }
+}
+
+@keyframes ni {
+  0% { width: 0; }		100% { width:95%; }
+}
+
+.sa,.re,.ga,.ma,.pa,.dha,.ni{
+	background-color:lavender;		color:#000;
+}
+
+
+.sa1{
+opacity:1;		background-color:#f33;		animation: sa 1s ease;		color:#fff;
+}
+
+.re1{
+opacity:1;		background-color:orange;		animation: re 1s ease;		color:#fff;
+}
+
+.ga1{
+opacity:1;		background-color:gold;		animation: ga 1s ease;		color:#fff;
+}
+
+.ma1{
+opacity:1;		background-color:#59f;		animation: ma 1s ease;		color:#fff;
+}
+
+.pa1{
+opacity:1;		background-color:#24f;		animation: pa 1s ease;		color:#fff;
+}
+
+.dha1{
+opacity:1;		background-color:indigo;		animation: dha 1s ease;		color:#fff;
+}
+
+.ni1{
+opacity:1;		background-color:green;		animation: ni 1s ease;		color:#fff;
+}
